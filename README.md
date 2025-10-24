@@ -58,7 +58,7 @@ src/main/java/com/mjt/Football_Tournament_Management_System
 ├─ service/       # Business Logic
 └─ resources/
    ├─ application.properties
-   └─ data.sql (optional seed)
+   └─ data.sql
 ```
 
 ---
@@ -173,4 +173,4 @@ mvn spring-boot:run
 ✅ Email/SMS notifications
 ✅ Tournament leaderboard API
 ✅ Docker & Kubernetes support
-✅ React or Angular frontend
+✅ React frontend
