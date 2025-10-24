@@ -1,4 +1,4 @@
-⚽ Football Tournament Management System (Spring Boot + JWT + MySQL)
+## ⚽ Football Tournament Management System (Spring Boot + JWT + MySQL)
 
 A complete **backend REST API** for managing football tournaments, built using **Spring Boot 3**, **JPA/Hibernate**, **MySQL**, **JWT authentication**, and **Swagger API documentation**.
 
@@ -104,9 +104,9 @@ Once the application is running, open:
 ### 1️⃣ Create MySQL Database
 
 ```sql
-CREATE DATABASE ftm_db;
-CREATE USER 'ftm_user'@'%' IDENTIFIED BY 'ftm_pass';
-GRANT ALL PRIVILEGES ON ftm_db.* TO 'ftm_user'@'%';
+CREATE DATABASE football_tournament;
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON football_tournament.* TO 'username'@'%';
 FLUSH PRIVILEGES;
 ```
 
@@ -114,8 +114,8 @@ FLUSH PRIVILEGES;
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/ftm_db
-spring.datasource.username=ftm_user
-spring.datasource.password=ftm_pass
+spring.datasource.username=root
+spring.datasource.password=password
 
 app.jwt.secret=your-32-character-secret-key-here
 app.jwt.expiration-minutes=180
