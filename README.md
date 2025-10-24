@@ -113,7 +113,7 @@ FLUSH PRIVILEGES;
 ### 2️⃣ Configure `application.properties`
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/ftm_db
+spring.datasource.url=jdbc:mysql://localhost:3306/football_tournament
 spring.datasource.username=root
 spring.datasource.password=password
 
